@@ -5,7 +5,7 @@ import Projects from './Projects.jsx';
 const Main = () => {
   return (<div>
     <About />
-    <Projects />
+    {/* <Projects /> */}
   </div>)
 }
 export default Main;

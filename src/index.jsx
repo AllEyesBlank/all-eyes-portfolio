@@ -6,7 +6,6 @@ const root = createRoot(document.getElementById("root"));
 
 const App = () => {
   return (<div>
-    <NavBar />
     <Main />
   </div>)
 }
