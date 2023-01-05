@@ -1,6 +1,6 @@
 body {
   background: white;
-  font-family: Helvetica
+  font-family: 'Futura'
 }
 
 .about-wrapper {
@@ -22,7 +22,16 @@ body {
 }
 
 .about-description {
-  font-size: 100% !important;
+  font-size: 100%;
+}
+
+.about-button {
+  cursor: pointer;
+  font-size: 50%;
+  text-decoration: underline;
+  display: flex;
+  align-items: right;
+  justify-content: right;
 }
 
 .about-image img {
@@ -30,4 +39,31 @@ body {
   border-radius: 100%;
   max-width: 30%;
   max-height: 30%;
+}
+
+.about-modal-wrapper {
+  max-width: 35%;
+  height: auto;
+  left: 0;
+  position: absolute;
+	z-index: 1;
+	overflow: auto;
+  padding: 5%;
+  border-radius: 15px;
+	background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  animation-name: zoom;
+  animation-duration: 0.5s;
+}
+
+.about-modal {
+  padding: 3%;
+  color: black;
+  text-align: left;
+  line-height: 1.4;
+  font-family: 'Futura';
+  display: flex;
+  justify-content: space-between;
 }
